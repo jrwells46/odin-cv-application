@@ -1,0 +1,88 @@
+:root {
+  --font-size-large: 2rem;
+  --font-size-medium: 1.5rem;
+  --font-size-small: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* remove when done 
+body * {
+  border: 1px solid red;
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-size-small);
+  font-family: system-ui, 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-size: var(--font-size-large);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: var(--font-size-medium);
+}
+
+#root {
+  max-width: 1200px;
+  display: grid;
+  gap: 1rem;
+}
+
+section {
+  padding: 1rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  display: grid;
+  gap: 0.5rem;
+}
+
+.display {
+  justify-content: center;
+  align-items: center;
+}
+
+.display h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.display > div {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.5rem 0;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+form > div {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 0.5rem;
+}
+
+label {
+  padding: 0.1rem 0;
+}
+
+input, textarea {
+  background-color: #c8e5f4;
+  border: 1px solid black;
+}
+

@@ -1,0 +1,1 @@
+This project is meant as a demo of a React application.
