@@ -1,4 +1,3 @@
-import './App.css'
 import GeneralInfo from './components/GeneralInfo.jsx'
 import EducationInfo from './components/EducationInfo.jsx'
 import EmploymentInfo from './components/EmploymentInfo.jsx'
